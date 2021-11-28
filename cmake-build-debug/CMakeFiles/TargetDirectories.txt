@@ -1,0 +1,3 @@
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/cmake-build-debug/CMakeFiles/CS236_Project1.dir
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

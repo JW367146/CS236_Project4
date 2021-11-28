@@ -1,0 +1,114 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Automaton.h
+Token.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Token.h
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Database.h
+Relation.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Relation.h
+map
+-
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/DatalogProgram.h
+Predicate.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Predicate.h
+Rule.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Rule.h
+set
+-
+string
+-
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Header.h
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Interpreter.h
+DatalogProgram.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/DatalogProgram.h
+Database.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Database.h
+StringInts.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/StringInts.h
+KeyValues.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/KeyValues.h
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/KeyValues.h
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Lexer.h
+vector
+-
+Automaton.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Automaton.h
+Token.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Token.h
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Parameter.h
+string
+-
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Parser.h
+Predicate.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Predicate.h
+Token.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Token.h
+DatalogProgram.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/DatalogProgram.h
+Rule.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Rule.h
+set
+-
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Predicate.h
+Parameter.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Parameter.h
+vector
+-
+sstream
+-
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Relation.h
+Tuple.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Tuple.h
+Header.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Header.h
+string
+-
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Rule.h
+Predicate.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Predicate.h
+sstream
+-
+string
+-
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/StringInts.h
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Token.h
+string
+-
+sstream
+-
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Tuple.h
+
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/main.cpp
+Lexer.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Lexer.h
+iostream
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/iostream
+fstream
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/fstream
+Token.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Token.h
+Parser.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Parser.h
+Interpreter.h
+C:/Users/Joseph Wilson/CLionProjects/Cs236 Project4/Interpreter.h
+
