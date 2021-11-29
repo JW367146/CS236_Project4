@@ -97,7 +97,7 @@ int main(int argc, char** argv) {
 
     Interpreter interpreter = Interpreter(parser->datalogProgram);
     interpreter.evalRules();//Lab 4 stuff
-   // interpreter.evalQueries();
+    interpreter.evalQueries();
 
     cout << interpreter.toString();
 

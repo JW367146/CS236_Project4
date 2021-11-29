@@ -235,7 +235,7 @@ public:
 
         unsigned int numRules = datalogProgram.numRules();
         for(unsigned int i = 0; i < numRules;i++){
-            std::string rule = datalogProgram.ruleAtI(i).toString()+"\n";
+            std::string rule = datalogProgram.ruleAtI(i).toString()+".\n";
             lab4Out<< rule;
             Relation evaluated = evalRule(datalogProgram.ruleAtI(i));
             std::string relation = ""; //evaluated.toString();
@@ -256,9 +256,10 @@ public:
 
     std::string toString()
     {
+        std::string Lab4Preface = "Rule Evaluation\n";
         lab4Out << "\nSchemes populated after " << rulePasses << " passes through the Rules.";
 
-        return lab4Out.str()+lab3Out.str();
+        return Lab4Preface + lab4Out.str()+lab3Out.str();
     }
 
     friend std::ostream& operator<< (std::ostream& os,  Interpreter& myclass)
