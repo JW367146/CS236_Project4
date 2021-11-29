@@ -257,7 +257,7 @@ public:
     std::string toString()
     {
         std::string Lab4Preface = "Rule Evaluation\n";
-        lab4Out << "\nSchemes populated after " << rulePasses << " passes through the Rules.";
+        lab4Out << "\nSchemes populated after " << rulePasses << " passes through the Rules.\n\n";
 
         return Lab4Preface + lab4Out.str()+lab3Out.str();
     }
