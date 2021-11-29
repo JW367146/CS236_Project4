@@ -226,9 +226,18 @@ public:
 
     ////Lab 4 stuff
 
-    Relation join(const Relation* beta){ Relation output;
+    Relation join(Relation *beta){ Relation output;
+
+
         //This function combines alpha (the member this) and Beta (the second relation to join)
         Relation* alpha = this;// I want to look at alpha instead of this for aesthetic reasons.
+        alpha->setVectorTuples();
+        beta->setVectorTuples();
+
+
+        //I have to make sure the vector tuples are updated
+
+
 
 
         //Combine headers. We add all of alphas, then we add the unique members of beta.

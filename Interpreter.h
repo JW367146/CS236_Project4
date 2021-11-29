@@ -201,9 +201,9 @@ public:
             //I believe I can evaluate the body Predicates of the rule the same way I evaluate a query.
             //There are no constants in the bodyPredicates so not very interesting.
             Predicate predicate = rule.predicateAtI(i);
-            Relation output = evalQuery(predicate);
-            output.setVectorTuples();
-            bodyRelations.push_back(output);
+            Relation predOutput = evalQuery(predicate);
+            predOutput.setVectorTuples();
+            bodyRelations.push_back(predOutput);
         }
 
 
@@ -215,6 +215,7 @@ public:
             bodyRelations[0] = joinedRelation;
             bodyRelations.erase(bodyRelations.begin()+1);
         }
+
         Relation output = bodyRelations[0];
         output.setVectorTuples();
         auto header = rule.headPredicateValues();
