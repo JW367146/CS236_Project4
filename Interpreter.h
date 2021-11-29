@@ -44,7 +44,10 @@ private:
         stringstream output;
         output << "  ";
         for(unsigned int i = 0; i < attributes.size(); i++){
-            output << attributes[i] <<"=" <<tuple[i]<< " ";
+            output << attributes[i] <<"=" <<tuple[i];
+            if (i < attributes.size() - 1){
+                output <<", ";
+            }
         }
         output <<"\n";
         return output.str();
