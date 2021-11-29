@@ -259,7 +259,7 @@ public:
         std::string Lab4Preface = "Rule Evaluation\n";
         lab4Out << "\nSchemes populated after " << rulePasses << " passes through the Rules.\n\n";
 
-        return Lab4Preface + lab4Out.str()+lab3Out.str();
+        return Lab4Preface + lab4Out.str()+ "Query Evaluation\n"+lab3Out.str();
     }
 
     friend std::ostream& operator<< (std::ostream& os,  Interpreter& myclass)
